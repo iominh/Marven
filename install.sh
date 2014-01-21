@@ -3,7 +3,7 @@
 # Maven projects
 MARVEN_VERSION=1.4.9
 
-function installJars() {
+installJars () {
 	for f in $1/*
 	do
 		if [ -d $f ] 
